@@ -1,0 +1,132 @@
+body{
+    background-color: #62C47A;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5px;
+}
+
+header{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5px;
+}
+
+#h2home{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px #000000;
+    color: #ff0000;
+}
+
+li{
+    display: inline-block;
+    width: 85px;
+    height: 25px;
+    padding: 12px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    text-align: center;
+    color: green;
+    font-size: 2;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+li:hover{
+    background-color: #62C47A;
+    border-style: none;
+    box-shadow: inset 2px 2px 5px red;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 500px;
+    width:30%;
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    color: black;
+}
+
+article{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background-color: #62C47A;
+    opacity: 0.9;
+    padding: 5px;
+}
+
+table,td,th {
+    border-collapse: collapse;
+    border : 1px solid black;
+    padding:5px;
+    margin:auto;
+   
+}
+
+form {
+    display:block;
+    margin: auto;
+    color: red;
+}
+
+input[type="text"], input[type="email"], textarea, 
+button{
+    display: block;
+    margin: auto;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: inset 2px 0px 2px 0px red;
+}
+
+#h2contact{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px #000000;
+    color: #ff0000;
+}
+
+textarea{
+    width: 400px;
+    height: 150px;
+    padding: 5px 4px;
+    margin: auto;
+}
+
+button:active{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px red;
+}
+
+p.copyright {
+    position: absolute;
+    color: black;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+}
